@@ -10,7 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
 
-  Titulo: string = "TITULO";
+  Titulo: string = "CINEMANIA";
 
   constructor(private titleService: Title) {
     this.titleService.setTitle(this.Titulo);
